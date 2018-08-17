@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.EventoListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.ParticipanteActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_nome"
+                style="@style/TextView.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_text_header"
+                android:padding="@dimen/text_margin"
+                android:textSize="16sp"
+                tools:text="Nome" />
+
+            <LinearLayout style="@style/TableRow">
+
+                <ImageView
+                    style="@style/ImageViewForm"
+                    android:src="@drawable/ic_code" />
+
+                <TextView
+                    android:id="@+id/txt_codigo"
+                    style="@style/TextView.Secondary"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginStart="@dimen/text_margin"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    tools:text="1000" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/TableRow">
+
+                <ImageView
+                    style="@style/ImageViewForm"
+                    android:src="@drawable/ic_email" />
+
+                <TextView
+                    android:id="@+id/txt_email"
+                    style="@style/TextView.Secondary"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginStart="@dimen/text_margin"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    tools:text="teste@mail.com" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/TableRow">
+
+                <ImageView
+                    style="@style/ImageViewForm"
+                    android:src="@drawable/ic_clock" />
+
+                <TextView
+                    android:id="@+id/txt_data_cadastro"
+                    style="@style/TextView.Secondary"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginStart="@dimen/text_margin"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    tools:text="01 jan 2018" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/TableRow">
+
+                <ImageView
+                    style="@style/ImageViewForm"
+                    android:src="@drawable/ic_done" />
+
+                <TextView
+                    android:id="@+id/txt_checkin"
+                    style="@style/TextView.Secondary"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginStart="@dimen/text_margin"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    tools:text="10 main 2018" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_assinatura"
+                style="@style/TableRow"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/img_assinatura"
+                    style="@style/ImageViewForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background"
+                    tools:text="Assinatura" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

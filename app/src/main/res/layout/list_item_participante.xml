@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Clickable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:padding="@dimen/text_margin">
+
+    <TextView
+        android:id="@+id/txt_nome"
+        style="@style/TextView.Primary"
+        android:layout_marginBottom="5dp"
+        tools:text="Nome" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TextView.Secondary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_nome"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:text="@string/codigo" />
+
+    <TextView
+        android:id="@+id/txt_codigo"
+        style="@style/TextView.Secondary"
+        android:layout_below="@+id/txt_nome"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_toLeftOf="@+id/txt_checkin"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_toStartOf="@+id/txt_checkin"
+        android:maxLines="1"
+        tools:text="1000" />
+
+    <TextView
+        android:id="@+id/txt_checkin"
+        style="@style/TextView.Secondary"
+        android:layout_alignBottom="@+id/txt_codigo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_text"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#FFF"
+        tools:text="CheckIn 10 main 2018" />
+
+</RelativeLayout>

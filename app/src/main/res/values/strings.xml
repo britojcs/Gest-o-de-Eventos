@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gestão de Eventos</string>
+
+    <string name="evento">Evento</string>
+    <string name="participante">Participante</string>
+    <string name="codigo">Código</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="assinatura">Assinatura</string>
+    <string name="data_cadastro">Data cadastro</string>
+    <string name="checkin">CheckIn</string>
+    <string name="registros">Registros</string>
+
+    <string name="pesquisar">Pesquisar</string>
+    <string name="pesquisar_hint">Pesquisar…</string>
+
+    <string name="falha_carregar_eventos">Falha ao carregar Eventos</string>
+    <string name="falha_carregar_participantes">Falha ao carregar Participantes</string>
+    <string name="falha_carregar_participante">Falha ao carregar Participante</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+
+</resources>

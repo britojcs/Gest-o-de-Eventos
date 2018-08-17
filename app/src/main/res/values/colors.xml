@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE0000</color>
+    <color name="colorPrimaryDark">#C90000</color>
+    <color name="colorAccent">#FE0000</color>
+    <color name="accent_translucent">#80FE0000</color>
+
+    <color name="window_background">#DADBDF</color>
+    <color name="error">#960000</color>
+    <color name="divider">#999</color>
+    <color name="text_primary">#222</color>
+    <color name="text_secondary">#666</color>
+
+    <color name="color_ok">#2FA992</color>
+</resources>
